@@ -1,15 +1,13 @@
 import React, { Component } from 'react';
-import Voting from './components/Voting';
+import {List} from 'immutable';
+
+const pair = List.of('Trainspotting', '28 Days Later');
 
 class App extends Component {
     render() {
         const pair = ['Trainspotting', '28 Days Later'];
 
-        return (
-            <div>
-                <Voting pair = {pair} />
-            </div>
-        );
+        return React.cloneElement(this.props.children, {pair: pair});
     }
 }
 

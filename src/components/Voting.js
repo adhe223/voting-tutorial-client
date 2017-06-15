@@ -1,18 +1,14 @@
 import React from 'react';
+import Winner from './Winner';
+import Vote from './Vote';
 
 const Voting = (props) => {
-    const pair = props.pair || [];
-    let pairJSX = pair.map((entry) => {
-        return (
-            <button key={entry} onclick={() => {props.vote(entry);}}>
-                <h1>{entry}</h1>
-            </button>
-        );
-    });
-
     return (
-        <div className="voting">
-            {pairJSX}
+        <div>
+            {props.winner ?
+                <Winner winner={props.winner} /> :
+                <Vote {...props} />
+            }
         </div>
     );
 };
