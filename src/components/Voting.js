@@ -1,8 +1,10 @@
 import React from 'react';
+import {connect} from 'react-redux';
+
 import Winner from './Winner';
 import Vote from './Vote';
 
-const Voting = (props) => {
+export const Voting = (props) => {
     return (
         <div>
             {props.winner ?
@@ -13,4 +15,11 @@ const Voting = (props) => {
     );
 };
 
-export default Voting;
+const mapStateToProps = (state) => {
+    return {
+        pair: state.getIn(['vote', 'pair']),
+        winner: state.get('winner')
+    };
+};
+
+export const VotingContainer = connect(mapStateToProps)(Voting);
