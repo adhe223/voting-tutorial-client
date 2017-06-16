@@ -7,8 +7,8 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Results.js" afterPath="$PROJECT_DIR$/src/components/Results.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Voting.js" afterPath="$PROJECT_DIR$/src/components/Voting.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/index.js" afterPath="$PROJECT_DIR$/src/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/components/Results_spec.js" afterPath="$PROJECT_DIR$/test/components/Results_spec.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/components/Voting_spec.jsx" afterPath="$PROJECT_DIR$/test/components/Voting_spec.jsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/reducer.js" afterPath="$PROJECT_DIR$/src/reducer.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/reducer_spec.js" afterPath="$PROJECT_DIR$/test/reducer_spec.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yarn.lock" afterPath="$PROJECT_DIR$/yarn.lock" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,23 +24,21 @@
       <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="94">
-              <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+            <state relative-caret-position="0">
+              <caret line="0" column="11" lean-forward="false" selection-start-line="0" selection-start-column="11" selection-end-line="0" selection-end-column="11" />
               <folding>
-                <element signature="e#0#26#0" expanded="true" />
+                <element signature="e#39#65#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="App.test.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/App.test.js">
+      <file leaf-file-name="remote_action_middleware.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/remote_action_middleware.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="125">
+              <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -48,8 +46,8 @@
       <file leaf-file-name="reducer.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/reducer.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+            <state relative-caret-position="125">
+              <caret line="5" column="60" lean-forward="false" selection-start-line="5" selection-start-column="60" selection-end-line="5" selection-end-column="60" />
               <folding />
             </state>
           </provider>
@@ -58,8 +56,8 @@
       <file leaf-file-name="Voting.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/Voting.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="600">
-              <caret line="24" column="7" lean-forward="false" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
+            <state relative-caret-position="675">
+              <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -67,11 +65,31 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="action_creators.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/action_creators.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="325">
+              <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Vote.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/Vote.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="575">
+              <caret line="23" column="2" lean-forward="false" selection-start-line="23" selection-start-column="2" selection-end-line="23" selection-end-column="2" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="Results.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/Results.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="519">
-              <caret line="52" column="21" lean-forward="false" selection-start-line="52" selection-start-column="21" selection-end-line="52" selection-end-column="21" />
+            <state relative-caret-position="1127">
+              <caret line="57" column="71" lean-forward="false" selection-start-line="57" selection-start-column="71" selection-end-line="57" selection-end-column="71" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -126,15 +144,17 @@
         <option value="$PROJECT_DIR$/src/components/Vote.js" />
         <option value="$PROJECT_DIR$/src/App.js" />
         <option value="$PROJECT_DIR$/src/components/App.js" />
-        <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/test/components/Results.js" />
-        <option value="$PROJECT_DIR$/test/reducer_spec.js" />
-        <option value="$PROJECT_DIR$/src/components/Voting.js" />
         <option value="$PROJECT_DIR$/test/components/Voting_spec.jsx" />
-        <option value="$PROJECT_DIR$/src/reducer.js" />
         <option value="$PROJECT_DIR$/test/components/Results_spec.js" />
-        <option value="$PROJECT_DIR$/src/components/Results.js" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/test/reducer_spec.js" />
+        <option value="$PROJECT_DIR$/src/reducer.js" />
+        <option value="$PROJECT_DIR$/src/components/Voting.js" />
         <option value="$PROJECT_DIR$/src/index.js" />
+        <option value="$PROJECT_DIR$/src/action_creators.js" />
+        <option value="$PROJECT_DIR$/src/components/Results.js" />
+        <option value="$PROJECT_DIR$/src/remote_action_middleware.js" />
       </list>
     </option>
   </component>
@@ -259,7 +279,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
-    <property name="SearchEverywhereHistoryKey" value="results&#9;FILE&#9;file://C:/Code/voting-client/src/components/Results.js&#10;reduc&#9;FILE&#9;file://C:/Code/voting-client/src/reducer.js&#10;inde&#9;FILE&#9;file://C:/Code/voting-client/src/index.js&#10;webpack.c&#9;FILE&#9;file://C:/Code/voting-client/node_modules/react-scripts/config/webpack.config.dev.js" />
+    <property name="SearchEverywhereHistoryKey" value="result&#9;FILE&#9;file://C:/Code/voting-client/src/components/Results.js&#10;Vote&#9;FILE&#9;file://C:/Code/voting-client/src/components/Vote.js&#10;inde&#9;FILE&#9;file://C:/Code/voting-client/src/index.js&#10;results&#9;FILE&#9;file://C:/Code/voting-client/src/components/Results.js&#10;reduc&#9;FILE&#9;file://C:/Code/voting-client/src/reducer.js&#10;webpack.c&#9;FILE&#9;file://C:/Code/voting-client/node_modules/react-scripts/config/webpack.config.dev.js" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -640,12 +660,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1497469541258</updated>
-      <workItem from="1497469544771" duration="17177000" />
+      <workItem from="1497469544771" duration="22228000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17177000" />
+    <option name="totallyTimeSpent" value="22228000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="2182" height="1402" extended-state="6" />
@@ -726,22 +746,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="20" column="9" lean-forward="false" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Vote.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="575">
-          <caret line="23" column="2" lean-forward="false" selection-start-line="23" selection-start-column="2" selection-end-line="23" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/App.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="250">
@@ -760,16 +764,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/reducer_spec.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="744">
-          <caret line="64" column="7" lean-forward="false" selection-start-line="64" selection-start-column="7" selection-end-line="64" selection-end-column="7" />
-          <folding>
-            <element signature="e#0#44#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/components/Results_spec.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
@@ -778,51 +772,91 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/reducer.js">
+    <entry file="file://$PROJECT_DIR$/src/App.test.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        <state relative-caret-position="200">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="775">
+          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Voting.js">
+    <entry file="file://$PROJECT_DIR$/test/reducer_spec.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="24" column="7" lean-forward="false" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Results.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="519">
-          <caret line="52" column="21" lean-forward="false" selection-start-line="52" selection-start-column="21" selection-end-line="52" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="1152">
+          <caret line="126" column="7" lean-forward="false" selection-start-line="126" selection-start-column="7" selection-end-line="126" selection-end-column="7" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="94">
-          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="11" lean-forward="false" selection-start-line="0" selection-start-column="11" selection-end-line="0" selection-end-column="11" />
+          <folding>
+            <element signature="e#39#65#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Voting.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.test.js">
+    <entry file="file://$PROJECT_DIR$/src/components/Vote.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        <state relative-caret-position="575">
+          <caret line="23" column="2" lean-forward="false" selection-start-line="23" selection-start-column="2" selection-end-line="23" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/reducer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="60" lean-forward="false" selection-start-line="5" selection-start-column="60" selection-end-line="5" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Results.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1127">
+          <caret line="57" column="71" lean-forward="false" selection-start-line="57" selection-start-column="71" selection-end-line="57" selection-end-column="71" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/action_creators.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/remote_action_middleware.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>

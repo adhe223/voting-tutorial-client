@@ -1,5 +1,6 @@
 import React from 'react';
 import {connect} from 'react-redux';
+import * as actionCreators from '../action_creators';
 
 import Winner from './Winner';
 
@@ -11,7 +12,7 @@ export const Results = (props) => {
         return 0;
     };
 
-    const pair = props.pair;
+    const pair = props.pair || [];
     let resultJSX;
 
     if (props.winner) {
@@ -54,4 +55,4 @@ const mapStateToProps = (state) => {
     };
 };
 
-export const ResultsContainer = connect(mapStateToProps)(Results);
+export const ResultsContainer = connect(mapStateToProps, actionCreators)(Results);
